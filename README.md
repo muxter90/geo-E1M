@@ -3,3 +3,5 @@ geo E1M is a specialized software for solving geodetic problems. Currently, it a
 
 comand installing:
 curl -o install.sh https://raw.githubusercontent.com/muxter90/geo-E1M/main/install_geo_program.sh && bash install.sh
+
+This command will install the program, the gcc compiler, and all the necessary files. you can run the program with the command: geo_program
