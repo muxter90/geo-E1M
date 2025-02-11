@@ -137,7 +137,7 @@ int main(){
 
 					cout << " " << endl;
 
-					cout << YELLOW <<"Хотите продолжить? (Y/n): ";
+					cout << YELLOW <<"Хотите продолжить? (Y/n): " << RESET;
 					cin >> repeat;
 
 				} while (repeat == 'Y' || repeat == 'y');
@@ -160,7 +160,7 @@ int main(){
 	 				cout << fixed << setprecision(3) << "Новые координаты: (" << result.first << ", " << result.second << ")" << endl;
 	 				cout << " " << endl;
 
-					cout << YELLOW <<"Хотите продолжить? (Y/n): ";
+					cout << YELLOW <<"Хотите продолжить? (Y/n): " << RESET;
 					cin >> repeat;
 
 				} while (repeat == 'Y' || repeat == 'y');
@@ -181,7 +181,7 @@ int main(){
 					cout << fixed << setprecision(3) << "Дирекционный угол равен: " << o << endl;
 					cout << " " << endl;
 
-					cout << YELLOW <<"Хотите продолжить? (Y/n): ";
+					cout << YELLOW <<"Хотите продолжить? (Y/n): " << RESET;
 					cin >> repeat;
 				} while (repeat == 'Y' || repeat == 'y');
 				break;
@@ -198,7 +198,7 @@ int main(){
 					cout << fixed << setprecision(3) << "Румб равняется: " << o << endl;
 					cout << " " << endl;
 
-					cout << YELLOW <<"Хотите продолжить? (Y/n): ";
+					cout << YELLOW <<"Хотите продолжить? (Y/n): " << RESET;
 					cin >> repeat;
 				} while (repeat == 'Y' || repeat == 'y');
 				break;
@@ -218,7 +218,7 @@ int main(){
 					cout << fixed << setprecision(3) << "Проложение равно: " << o << endl;
 					cout << " " << endl;
 
-					cout << YELLOW <<"Хотите продолжить? (Y/n): ";
+					cout << YELLOW <<"Хотите продолжить? (Y/n): " << RESET;
 					cin >> repeat;
 				} while (repeat == 'Y' || repeat == 'y');
 				break;
@@ -237,7 +237,7 @@ int main(){
 
 					cout << fixed << setprecision(3) << "Проложение равно: " << o << endl;
 
-					cout << YELLOW <<"Хотите продолжить? (Y/n): ";
+					cout << YELLOW <<"Хотите продолжить? (Y/n): " << RESET;
 					cin >> repeat;
 				} while (repeat == 'Y' || repeat == 'y');
 				break;
